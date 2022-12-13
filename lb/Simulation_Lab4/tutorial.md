@@ -34,38 +34,36 @@
 
 ### 4.5 Содержание отчета
 Наличие отчета не является необходимым. Его функции выполняет файл сцены, который должен будет быть выложен на сервисе GitHub и после получения отработки должна быть предоставлена ссылка на репозиторий.
+
 <br>
 
 <!-- 
 Это пока заготовка с прошлой лабораторной, ближе к проведению, прикину вопросы и литературу.
-### 3.5 Контрольные вопросы
-1. Для чего нужна оптимизационная модель?
-1. Какие этапы использования среды BehaviorSearch?
-1. Что такое целевая функция (функция приспособленности)?
-1. Как вы понимаете понятие "пространства поиска"?
-1. Какие алгоритмы поиска доступны в среде BehaviorSearch?
-1. В чём заключается метод случайного поиска?
-1. В чём разница между средним арифметическим значением и медианой?
-1. Какие могут использоваться критерии остановки поиска?
-2. Какие основные этапы работы генетического алгоритма?
-2. Какие генетические операторы вам известны?
-2. Что такое кроссовер? Как происходит отбор особей для него?
-2. Для чего нужен оператор мутации?
-2. Какие есть способы кодирования вариантов решений (особей) в генетическом алгоритме?
-2. Недостатки и преимущества использования генетических алгоритмов.
-2. В чём заключается алгоритм имитации отжига?
-2. В чём заключается метод поиска восхождением к вершине?
+### 4.5 Контрольные вопросы
+1. Какие задачи выполняет иерархия объектов в COPPELIASIM?
+1.	Каким образом можно открыть свойства отдельных объектов для редактирования?
+
 
 <br>
-
-### СПИСОК ЛИТЕРАТУРЫ
-1. Среда [BehaviorSearch](http://www.behaviorsearch.org/).
-1. Подробное [описание процесса использования](https://www.behaviorsearch.org/documentation/tutorial.html) BehaviorSearch, на примере.
-1. Популярное [описание работы генетических алгоритмов](http://algolist.ru/ai/ga/).
-1. [Introduction to Genetic Algorithms](https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3).
-1. [Генетический алгоритм. Просто о сложном](https://habr.com/ru/post/128704/). *Пример использования для решения Диофантового уравнения и масса ссылок на другие неформальные статьи по этой теме*.
-1. Руководства по разметке Markdown: [1](https://gist.github.com/Jekins/2bf2d0638163f1294637), [2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [3](https://www.markdownguide.org/basic-syntax/).
 -->
+### СПИСОК ЛИТЕРАТУРЫ
+1. Среда [CoppeliaSim](https://www.coppeliarobotics.com/).
+1. [Репозиторий](https://github.com/CoppeliaRobotics) со сценами, моделями и т.д.
+1. [CoppeliaSim User Manual](https://www.coppeliarobotics.com/helpFiles/index.html).
+1. [Разбор](https://www.coppeliarobotics.com/helpFiles/en/lineFollowingBubbleRobTutorial.htm) готового примера робота, следующего по линии.
+1. [Learn Lua in 15 Minutes](https://tylerneylon.com/a/learn-lua/).
+1. [Руководство](https://lua.org.ru/contents_ru.html) по языку Lua.
+1. [Описание процесса](https://habr.com/ru/post/648923/) добавления элементов интерфейса пользователя и рисования графиков.
+1. Цикл видеоуроков [A Complete CoppeliaSim Tutorial (V-REP)](https://www.youtube.com/playlist?list=PLjzuoBhdtaXOoqkJUqhYQletLLnJP8vjZ).
+
 <!-- 
-Если не пугает углубление в науку (оно для лабы не является необходимым, базовых источников и рассказанного на лекциях хватит), есть хорошие статьи про использование методов поиска, указанные в самом проекте BehaviorSearch, по ссылке http://www.behaviorsearch.org/papers.html
+Уроки по робототехнике: https://edurobots.org/2020/02/lua-coppeliasim/, https://edurobots.org/2020/02/coppeliasim/.
+Идеи задач по робототехнике: https://robot-help.ru/lessons-2/lesson-11.html
+Про Луа: https://ru.wikipedia.org/wiki/Lua
+Магистерская работа, включающая использование CoppeliaSim: https://openarchive.nure.ua/server/api/core/bitstreams/d9fcecfb-18f6-4f61-972f-ef43bc550c40/content
+О моделировании в робототехнике: http://www.controlengrussia.com/innovatsii/modelnometallicheskaya-obolochka/
+Бжихатлов И.А. Моделирование робототехнических систем в программе V-REP. Учебно-Методическое пособие. – СПб: Университет ИТМО, 2018. – 59с. Скачано.
+Методические рекомендации использования симулятора моделирования динамической среды CoppeliaSim. Скачано.
+О Газибо, на будущее: https://gazebosim.org/docs/garden/tutorials
+Альтернатива средам моделирования роботов: https://trikset.com/products/trik-studio
 -->
