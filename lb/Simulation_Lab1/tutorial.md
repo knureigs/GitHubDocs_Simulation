@@ -1,18 +1,18 @@
-# Імітаційне моделювання комп'ютерних систем
+# Комп'ютерні системи імітаційного моделювання
 ## Лабораторна робота №1. Опис імітаційних моделей та проведення обчислювальних експериментів
 
 <br>
 
 ### 1.1 Мета роботи
 Ознайомитись з готовими моделями з різних предметних областей реального світу, які пропонуються середовищем мультиагентного імітаційного моделювання NetLogo.  
-Навчитися описувати модель, висувати гіпотези та проводити обчислювальні експерименти для їх перевірки.
+Навчитися описувати модель та проводити обчислювальні експерименти для дослідження її роботи.
 
 <br>
 
 ### 1.2 Необхідні засоби
 Для виконання лабораторної роботи знадобиться:
 - відкрите середовище мультиагентного моделювання **NetLogo**. Можливе використання у браузері [веб-версії](http://www.netlogoweb.org/) даного інструменту.
-- для опису роботи використовується файл у форматі **md**, що розміщується у складі репозиторію лабораторної роботи на сервісі GitHub. *Для зручності локальної роботи з md-розміткою доцільно використовувати редактори коду, такі як MS Visual Studio Code або будь-який інший, знайомий користувачеві. У разі локальної роботи з підготовки md-файлу, знадобиться встановлена СКВ Git.*
+- для опису роботи використовується файл у форматі **md**, що розміщується у складі репозиторію лабораторної роботи на сервісі GitHub. *Для зручності локальної роботи з md-розміткою доцільно використовувати редактори коду, такі як MS Visual Studio Code або будь-який інший, знайомий користувачеві. У разі локальної роботи з підготовки md-файлу, окрім редактору коду, також знадобиться встановлена СКВ Git.*
 - для роботи з веб-версією NetLogo та сервісом GitHub буде потрібно доступ до мережі Інтернет.
 
 <br>
@@ -20,29 +20,29 @@
 ### 1.3 Порядок виконання роботи
 1. **Познайомитись** з інтерфейсом середовища NetLogo для запуску симуляції, налаштування параметрів та отримання інформації про роботу моделі.
 2. **Ознайомитись** з моделлю згідно варіанту, її сенсом, параметрами та критеріями ефективності. Зручно спиратися на розділ "Model info", що присутній у будь-якій з готових моделей у NetLogo. <!-- *Але не варто його переоцінювати, там зустрічаються суперечливі твердження.* -->
-3. Підготувати вербальний опис моделі (у форматі md), що включає загальну **інформацію** про модель, внутрішні та керуючі **параметри**, **критерії** роботи моделі та алгоритм зміни станів моделі (на основі поведінки її агентів). Можлива вказівка виявлених недоліків та внесених вами змін до логіки роботи моделі (якщо це необхідно).
-4. Провести **обчислювальні експерименти** (щонайменше 3), що підтвердять ваші припущення щодо моделі, або продемонструють характер **залежності** показника ефективності моделі від керуючих параметрів. Зазвичай для відображення залежності будується графік та таблиця для кожного обчислювального експерименту. Пам'ятайте, що при дослідженні залежності показника від зміни обраного параметру, інші параметрі не повинні змінюватися і їх значення потрібно навести у описі на початку експерименту. Часто рекомендовані дослідження наводяться у "Model info", але не рекомендується спиратися тільки на них, автори моделі часто передбачають більш складне використання, ніж можливо у рамках лабораторної роботи. 
-
+3. Підготувати вербальний опис моделі (у форматі md), що включає загальну **інформацію** про модель, внутрішні та керуючі **параметри**, **показники** роботи моделі та опис алгоритму зміни станів моделі (на основі поведінки її агентів). Можлива вказівка виявлених вами недоліків та внесених вами змін до логіки роботи моделі (якщо це необхідно).
+4. Провести **обчислювальні експерименти** (щонайменше 3), що продемонструють характер **залежності** показників роботи моделі від керуючих параметрів. Зазвичай для кожного обчислювального експерименту для відображення залежності обраного показника від обраного параметру будується **графік** на основі **таблиці** результатів моделювання. Тобто кожен з експериментів передбачає багаторазовий запуск симуляції ("прогін моделі"). Кількість запусків при різних значеннях керуючого параметру повинна бути достатньою для наповнення таблиці і побудови графіку (зазвичай, не менше п'яти значень), з метою формулювання висновків щодо впливу керуючого параметру на обраний показник роботи. Пам'ятайте, що при дослідженні залежності показника від зміни **обраного** параметру, інші параметрі не повинні змінюватися і їх значення потрібно навести у описі експерименту у самому початку *("початкові умови" обчислюваного експерименту)*.  
+Часто рекомендовані дослідження наводяться у "Model info", але не рекомендується спиратися тільки на них, автори моделі інколи припускають більш складне використання, ніж доцільно у рамках лабораторної роботи. 
 
 <br>
 
 ### 1.4 Варіанти завдань
-Наведено перелік моделей для розгляду, з кратким описом. Обирається згідно варіанту, **вказаним викладачем**.  
+Наведено перелік моделей для розгляду, з посиланнями та неформальним описом. Модель для дослідження обирається згідно варіанту, **вказаним викладачем**.  
 1. [Traffic Grid](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Traffic%20Grid.nlogo). Дослідження руху автотранспорту через регульовані (або ні) перехрестки.
-1. [Climate Change](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo). Дослідження парникового ефекту, як змінюється температура земної поверхні при різній концентрації вуглекислого газу, наявності хмарності, снігу тощо.
-2. [Virus](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Virus.nlogo). Модель поширення захворювання у людській популяції.
-0. [Urban Suite - Pollution](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Curricular%20Models/Urban%20Suite/Urban%20Suite%20-%20Pollution.nlogo). Забруднення повітря та боротьба з ним.
-0. [Fire Simple Extension 2](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/IABM%20Textbook/chapter%203/Fire%20Extensions/Fire%20Simple%20Extension%202.nlogo). Проста модель поширення вогню у лісі, з урахуванням щільності дерев та напрямку вітру.
-0. [Rabbits Grass Weeds](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Rabbits%20Grass%20Weeds.nlogo). Класична модель "заячого лугу".
-0. [Wolf Sheep Predation](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo). Модель взаємоіснування хижаків та їх жертв.
-0. [Segregation Simple Extension 1](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/IABM%20Textbook/chapter%203/Segregation%20Extensions/Segregation%20Simple%20Extension%201.nlogo). Модель досліджує прагнення "групуватися" із "своїми" і толерантність до чужаків.<!-- *Модель перемещений черепах-шовинистов таким образом, чтобы рядом не было "чужаков".* -->
-0. [Sheperds](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Shepherds.nlogo). Розгляд процесу пошуку да збирання вівець у стада.
-0. [Ants](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Ants.nlogo). Модель переміщення мурах у пошуку їжі.
-0. [Autumn](https://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Autumn.nlogo). Моделювання змін листів дерева залежно від природних умов.
-0. [Muscle Development](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Muscle%20Development.nlogo). Дослідження факторів, що впливають на зростання м'язів.
-0. [Fruit Wars](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Economics/Fruit%20Wars.nlogo). Розгляд боротьби за обмежені ресурси у різних групах людської популяції.
+2. [Climate Change](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Earth%20Science/Climate%20Change.nlogo). Дослідження парникового ефекту, зміни температури земної поверхні при різній концентрації вуглекислого газу, наявності хмарності, снігу тощо.
+3. [Virus](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Virus.nlogo). Модель поширення захворювання у людській популяції.
+4. [Urban Suite - Pollution](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Curricular%20Models/Urban%20Suite/Urban%20Suite%20-%20Pollution.nlogo). Забруднення повітря та боротьба з ним.
+5. [Fire Simple Extension 2](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/IABM%20Textbook/chapter%203/Fire%20Extensions/Fire%20Simple%20Extension%202.nlogo). Проста модель поширення вогню у лісі, з урахуванням щільності дерев та напрямку вітру.
+6. [Rabbits Grass Weeds](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Rabbits%20Grass%20Weeds.nlogo). Класична модель "заячого лугу".
+7. [Wolf Sheep Predation](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo). Модель взаємоіснування хижаків та їх жертв.
+8. [Segregation Simple Extension 1](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/IABM%20Textbook/chapter%203/Segregation%20Extensions/Segregation%20Simple%20Extension%201.nlogo). Модель досліджує прагнення "групуватися" із "своїми" і толерантність до чужаків.<!-- *Модель перемещений черепах-шовинистов таким образом, чтобы рядом не было "чужаков".* -->
+9. [Sheperds](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Shepherds.nlogo). Розгляд процесу пошуку та збирання вівець у стада.
+10. [Ants](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Ants.nlogo). Модель переміщення мурах у пошуку їжі.
+11. [Autumn](https://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Autumn.nlogo). Моделювання змін листів дерева залежно від природних умов.
+12. [Muscle Development](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Muscle%20Development.nlogo). Дослідження факторів, що впливають на зростання м'язів.
+13. [Fruit Wars](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Economics/Fruit%20Wars.nlogo). Розгляд боротьби за обмежені ресурси у різних групах людської популяції.
 
-Виконання "чужого" варіанту можливо тільки по узгодженню з викладачем і передбачає **обмін** варіантами з іншим студентом групи, згодним на це.
+Виконання "чужого" варіанту можливо тільки по узгодженню з викладачем (і повинно бути відображено у журналі) і передбачає **обмін** варіантами з іншим студентом групи, згодним на це.
 <br>
 
 ### 1.5 Зміст звіту
